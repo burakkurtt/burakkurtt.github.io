@@ -419,7 +419,7 @@ nav a:hover{
 
 .wrapper .left-side a{
     text-decoration: none;
-    color: none;
+    color: rgb(160, 47, 47);
 }
 
 .wrapper .left-side a:visited {
@@ -740,4 +740,8 @@ footer{
     color: #A1A4A6;
 }
 
-
+@media screen and (max-width:950px){
+    .footer-wrapper p, .far{
+        font-size: 1.8vw;
+    }
+}
